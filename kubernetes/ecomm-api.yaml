@@ -36,7 +36,7 @@ spec:
       containers:
       - name: ecommservice-app
         # Replace [GCLOUD_PROJECT] with your project ID or use `make template`.
-        image: us.gcr.io/x-refinery-button-soup/sampleapp
+        image: us.gcr.io/x-refinery-button-soup/sampleapp:8834988
         # This setting makes nodes pull the docker image every time before
         # starting the pod. This is useful when debugging, but should be turned
         # off in production.
